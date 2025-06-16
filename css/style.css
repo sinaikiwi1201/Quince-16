@@ -315,7 +315,7 @@ section#Quienes-somos .text{
 section#Quienes-somos .principito {
     /* height: 435px;
     width: 886px; */
-    background: url(./imagenes/principito.jpg);
+    background: url(../imagenes/principito.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -491,7 +491,7 @@ section#Noticias {
 }
 
 #tarjeta__carrusel-1 {
-    background: url(./imagenes/hueningkai.jpg);
+    background: url(../imagenes/hueningkai.jpg);
     background-size: cover;
     
     background-repeat: no-repeat;
@@ -499,7 +499,7 @@ section#Noticias {
 }
 
 #tarjeta__carrusel-2 {
-    background: url(./imagenes/hogarhuerfanos.jpg);
+    background: url(../imagenes/hogarhuerfanos.jpg);
     background-size: cover;
     
     background-repeat: no-repeat;
@@ -507,7 +507,7 @@ section#Noticias {
 }
 
 #tarjeta__carrusel-3 {
-    background: url(./imagenes/juevespintura.jpg);
+    background: url(../imagenes/juevespintura.jpg);
     background-size: cover;
     
     background-repeat: no-repeat;
@@ -515,7 +515,7 @@ section#Noticias {
 }
 
 #tarjeta__carrusel-4 {
-    background: url(./imagenes/profecamiseta.jpg);
+    background: url(../imagenes/profecamiseta.jpg);
     background-size: cover;
     
     background-repeat: no-repeat;
@@ -665,27 +665,36 @@ align-self: flex-end;
         margin-top: 18.5rem;
         padding: 20px;
         gap: 10px;
+        margin-bottom: 3rem;
     }
 
 
     #tarjeta__carrusel-1 {
-        background: url(./imagenes/kaimobile.jpg);
+        background: url(../imagenes/kaimobile.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
     }
 
     #tarjeta__carrusel-2 {
-        background: url(./imagenes/huerfanomobile.jpg);  
+        background: url(../imagenes/huerfanomobile.jpg);  
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
     }
 
     #tarjeta__carrusel-3 {
-        background: url(./imagenes/artemobile.jpg); 
+        background: url(../imagenes/artemobile.jpg); 
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
     }
 
     #tarjeta__carrusel-4 {
-        background: url(./imagenes/salonmobile.jpg);   
+        background: url(../imagenes/salonmobile.jpg);   
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; 
     }
 
     .title__1 {
@@ -705,7 +714,7 @@ align-self: flex-end;
         margin: 0;
 
         transition: background-color 0.3s ease-in-out;
-        align-self: end;
+        align-self: flex-end;
 
     }
 
